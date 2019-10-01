@@ -9,7 +9,7 @@ func main() {
 	fmt.Scan(&t)
 	for t>0{
 		fmt.Scan(&n)
-		s := make([]int, n)
+		k := make([]int, n)
 		for i=0;i<n;i++{
 		fmt.Scan(&s[i])
 		}
@@ -20,7 +20,7 @@ func main() {
 				if s[i]<s[j] {
 					flag=1
 				}
-			}
+			   }
 			if flag==0{
 				fmt.Println(s[i])
 			}
