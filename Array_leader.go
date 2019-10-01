@@ -10,8 +10,8 @@ func main() {
 	for t>0{
 		fmt.Scan(&n)
 		s := make([]int, n)
-		for i=0;i<n;i++{
-		fmt.Scan(&s[i])
+		for j=0;j<n;j++{
+		fmt.Scan(&s[j])
 		}
 
 		for i=0;i<n;i++{
