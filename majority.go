@@ -17,7 +17,7 @@ func main() {
 			s[a]++
 		}
 		for i=0;i<n;i++ {
-			if s[i]>=n/2{
+			if s[i]>=n/2 {
 				flag = 1
 				ind =i
 			}
