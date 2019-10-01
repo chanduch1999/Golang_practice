@@ -6,31 +6,31 @@ import (
 
 func main() {
 
-	var a,b,c,de,largest int;
+   var a,b,c,res,largest int;
    fmt.Scan(&a,&b,&c)
-   de=a+b+c;
-   if de>largest{
-       largest=de;
+   res=a+b+c;
+   if res>largest{
+       largest=res;
    }
-   de=a*b*c;
-   if de>largest {
-       largest=de;
+   res=a*b*c;
+   if res>largest {
+       largest=res;
    }
-   de=a*(b+c);
-   if de>largest   {
-       largest=de;
+   res=a*(b+c);
+   if res>largest   {
+       largest=res;
    }
-   de=a+(b*c);
-   if de>largest   {
-       largest=de;
+   res=a+(b*c);
+   if res>largest   {
+       largest=res;
    }
-   de=(a+b)*c;
-   if de>largest   {
-       largest=de;
+   res=(a+b)*c;
+   if res>largest   {
+       largest=res;
    }
-   de=(a*b)+c;
-   if de>largest  {
-       largest=de;
+   res=(a*b)+c;
+   if res>largest  {
+       largest=res;
    }
 	fmt.Println(largest)
 }
