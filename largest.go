@@ -32,5 +32,5 @@ func main() {
    if res>largest  {
        largest=res;
    }
-	fmt.Println(largest)
+	fmt.Println("largest number is "+largest)
 }
