@@ -23,7 +23,7 @@ func main() {
 			}
 		}
 		if(flag==1){
-			fmt.Println(s[ind])
+			fmt.Println(s[ind]+" is major")
 		}else {
 			fmt.Println(-1)
 		}
