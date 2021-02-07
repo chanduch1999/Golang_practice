@@ -7,12 +7,12 @@ import (
 
 func main() {
 	var t int
-	var i,s,a,n float64 
+	var j,s,a,n float64 
 	fmt.Scan(&t)
 	for t>0{
 		fmt.Scan(&n)
 		s=0
-		for i=0;i<n;i++{
+		for j=0;j<n;j++{
 			fmt.Scan(&a)
 			s+=a
 		}
